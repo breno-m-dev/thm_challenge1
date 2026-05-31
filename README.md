@@ -2,6 +2,8 @@
 This repository documents my solution to a TryHackMe challenge.  
 The goal was to find hidden information inside a binary executable file.
 
+**Link to the TryHackMe's page of this challenge:** https://tryhackme.com/room/hfb1thegame
+
 ## Tools Used
 
 - **strings.exe** – Used to extract readable strings from the binary file (basic reverse engineering technique)
