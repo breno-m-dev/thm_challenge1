@@ -8,7 +8,7 @@ The goal was to find hidden information inside a binary executable file.
 - **Python** – Used to filter and process the extracted strings for easier analysisUsed to make a script to filter the strings made found with strings.exe. It is possible to make this filters through strings.exe. But since I already know python and it was my first time using strings .exe it made more sense to make the filter in Python to be more practical.
 
 ## Strings.exe cmd command
-
+This will generate a .txt file named "output.txt", from reading the "Tetrix.exe" file on the current folder. It's important to be on the folder where "Tetrix.exe" is on the terminal.
 ```bash
 "D:\tools\strings\strings.exe" Tetrix.exe > output.txt
 ```
